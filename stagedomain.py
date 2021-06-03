@@ -81,8 +81,11 @@ if __name__ == '__main__':
     total_mutations = []
 
     for domain in domains:
-        mutations = make_mutation(domain, args.full_match)
-        total_mutations.extend(mutations)
+        try:
+            mutations = make_mutation(domain, args.full_match)
+            total_mutations.extend(mutations)
+        except Exception as e:
+            print(e)
 
     total_mutations = list(set(total_mutations))
 
