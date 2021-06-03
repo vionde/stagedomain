@@ -4,15 +4,12 @@ import re
 
 
 
-
-
 subnames = {'prod': ['prod', 'prd', 'production', 'prod-dev', 'prod-admin'],
             'stage': ['stage', 'stg', 'staging', 'stag', 'stag-dev', 'stag-admin'],
             'dev': ['dev', 'develop', 'developer', 'developing', 'dev-admin', 'dev-stage'],
             'admin': ['admin', 'adm', 'administrating'],
             'internal': ['internal', 'local', 'localhost', 'local-host'],
             'test': ['test', 'testing', 'test-dev', 'test-stage', 'test-admin']}
-
 
 
 
@@ -100,10 +97,3 @@ if __name__ == '__main__':
 
     for mutation in total_mutations:
         print(mutation)
-
-
-
-
-
-
-
