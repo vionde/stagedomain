@@ -9,10 +9,6 @@ stagedomain - tool, that makes subdomain mutations with popular state keywords, 
 
 ### Installation
 
-* Usging pip
-```
-pip install stagedomain
-```
 * Installation from source (requires git):
 ```
 git clone https://github.com/vionde/stagedomain.git
